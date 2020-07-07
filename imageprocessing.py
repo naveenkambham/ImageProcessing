@@ -48,7 +48,7 @@ Y_people=np.ones(X_people.shape[0],dtype=np.int32)
 
 
 #loading the other than people images
-file_dir=r"E:/Drive/JobHunts/PythonCode/ImageProcessing/pedestrians_neg/"
+file_dir=r"/pedestrians_neg/"
 X_nonpeople=[]
 for file in listdir(file_dir):
 	img= cv2.imread(file_dir+file)
